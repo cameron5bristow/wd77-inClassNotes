@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        header does these things
+        Holds mete data
+        information we don't see
+        - links, viewport info, document title, etc
+        we can add comments that are unseen to the site
+     -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+     <style>
+         body {
+             background-color: aquamarine;
+             background-color: white;
+         }
+     </style>
+      </head>
+<body>
+
+    <header>
+        <!--
+            - header can be used for introductory content or a set of navigational links.
+            such as nav links, 
+        -->
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <!-- emmet = li*4 to get 4 lines of what you want-->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forun</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <section>
+
+        <!--
+            The <section> tag defines a section in a doc and has a default value of a block display.
+          -->
+        <h2>Welcome</h2>
+        <main>
+            <!-- 
+                - specifies the main content
+                - there can only be one in an element 
+                - Can not be a descendant (child) of:
+                - header
+                -nav
+                -ariticle
+                -aside
+                -footer
+             -->
+
+             <article>
+                 <!-- 
+                     The <artile> tag specifies independant, self-contained content -->
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur alias 
+                    expedita hic voluptate nihil reprehenderit corporis placeat itaque eveniet qui quaerat 
+                    ipsam, exercitationem fuga ullam beatae maxime, error animi tempore? Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.Quis excepturi, nihil explicabo neque non, eligendi sapiente 
+                    deleniti quae veritatis,sit porro? Sequi laboriosam vitae quas ea doloribus tenetur consequatur suscipit?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur alias 
+                    expedita hic voluptate nihil reprehenderit corporis placeat itaque eveniet qui quaerat 
+                    ipsam, exercitationem fuga ullam beatae maxime, error animi tempore? Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.Quis excepturi, nihil explicabo neque non, eligendi sapiente 
+                    deleniti quae veritatis,sit porro? Sequi laboriosam vitae quas ea doloribus tenetur consequatur suscipit?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur alias 
+                    expedita hic voluptate nihil reprehenderit corporis placeat itaque eveniet qui quaerat 
+                    ipsam, exercitationem fuga ullam beatae maxime, error animi tempore? Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.Quis excepturi, nihil explicabo neque non, eligendi sapiente 
+                    deleniti quae veritatis,sit porro? Sequi laboriosam vitae quas ea doloribus tenetur consequatur suscipit?</p>
+                    <!-- highlight then Shift + Alt + {down arrow} or [up arrow] to copy quickly -->
+             </article>
+
+             <aside>
+                 <!-- 
+                     The <aside> tag defines some content aside from the content it is placed in or indirectly related to the surrounding content.
+                  -->
+                  <h2> Favorite Albums</h2>
+                  <a href="./assets/PinkFloyd.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/PinkFloyd.jpg" alt="Division Bell - Pink Floyd"></a>
+                  <a href="./assets/inYourHonor.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/inYourHonor.jpg" alt="Foo Fighters - In Your Honor"></a>
+                  <a href="./assets/BrokenBells_Amoeba.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/BrokenBells_Amoeba.jpg" alt="Broken Bells"></a>
+                  <a href="./assets/TVotR_seeds.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/TVotR_seeds.jpg" alt="TV on the Radio - Seeds"></a>
+
+             </aside>
+        </main>
+
+    </section>
+   
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus adipisci voluptates vel dolores magni sed architecto vitae cum voluptas, omnis ipsam repellat dicta. Fuga nesciunt dolores deleniti alias pariatur. &copy;20</p>
+    </footer>
+
+
+</html>
